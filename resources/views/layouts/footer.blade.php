@@ -64,6 +64,6 @@
         </div>
     </div>
     <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6">
-        Copyright 2021-2025. All Rights Reserved
+        Copyright 2021-2025 Code by Yassin Abdelhamid and Code Tutorial Dary. All Rights Reserved
     </p>
 </footer>
