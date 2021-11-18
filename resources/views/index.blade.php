@@ -19,13 +19,13 @@
         <img src="https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_1280.jpg" width="700" alt="">
     </div>
     <div class="m-auto sm:m-auto text-left w-4/5 block">
-        <h2 class="text-4xl font-extrabold text-gray-600">
+        <h2 class="text-3xl font-extrabold text-gray-600">
             Struggling to be a better developer?
         </h2>
-        <p class="py-8 text-gray-500 text-l">
+        <p class="py-8 text-gray-500 text-s">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam voluptua.
         </p>
-        <p class="font-extrabold text-gray-600 text-l pb-9">
+        <p class="font-extrabold text-gray-600 text-s pb-9">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
             At vero eos et accusam ea rebum. Lorem ipsum dolor sit amet.
         </p>
@@ -63,5 +63,25 @@
     <p class="m-auto w-4/5 text-gray-500">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam voluptua.
     </p>
+</div>
+
+<div class="sm:grid grid-cols-2 w-4/5 m-auto">
+    <div class="flex bg-yellow-700 text-gray-100 pt-10">
+        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+            <span class="uppercase text-xs">
+                PHP
+            </span>
+            <h3 class="text-xl font-bold py-10">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                At vero eos et accusam ea rebum. Lorem ipsum dolor sit amet.
+            </h3>
+            <a href="" class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                Find out more
+            </a>
+        </div>
+    </div>
+    <div>
+        <img src="https://cdn.pixabay.com/photo/2015/09/17/17/25/code-944499_1280.jpg" width="700" alt="">
+    </div>
 </div>
 @endsection
