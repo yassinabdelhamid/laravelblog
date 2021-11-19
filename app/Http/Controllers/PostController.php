@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use GuzzleHttp\Promise\Create;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
@@ -82,3 +83,11 @@ class PostController extends Controller
         //
     }
 }
+
+// CRUD
+// Create : /blog/create
+// Read : /blog
+// Update: /blog/{id} PUT or PATCH
+// Delete : /blog/{id} DELETE
+// Show : /blog/{id} GET
+// Edit: /blog/{id}/edit GET
