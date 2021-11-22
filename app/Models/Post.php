@@ -9,9 +9,15 @@ use Cviebrock\EloquentSluggable\Sluggable;
 class Post extends Model
 {
     use HasFactory;
-    // use Sluggable;
+    use Sluggable;
 
     public function user(){
         return $this->belongsTo(User::class);
+    }
+
+    public function sluggable(): array {
+        return [
+            'slug' => 'title'
+        ];
     }
 }
